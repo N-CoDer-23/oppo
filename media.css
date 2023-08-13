@@ -1,0 +1,203 @@
+@media screen and (max-width:1250px) {
+    h1{
+        font-size: 30px;
+    }
+    .navbar{
+        padding: 0 5%;
+    }
+    .navbar ul{
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .text{
+        width: 40%;
+    }
+    .green{
+        width: 200px;
+    }
+}
+@media screen and (max-width:970px) {
+    .im{
+        grid-template-columns: 1fr;
+    }
+    .ras{
+        min-height: 400px;
+    }
+    .nth i{
+        padding-left: 40%;
+    }
+    .nth1 i{
+        padding-left: 37%;
+    }
+    .nth2 i{
+        padding-left: 50.5%;
+    }
+}
+@media screen and (max-width:900px) {
+    .navbar li{
+      font-size: 12px;  
+    }
+    .logo{
+        width: 80px;
+        height: 50px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .rem{
+        grid-gap: 50%;
+    }
+}
+@media screen and (max-width:778px) {
+    .nth i{
+        padding-left: 28%;
+    }
+}
+@media screen and (max-width:770px) {
+    ul.comm{
+        display: none;
+    }
+    .navbar ul{
+        gap: 60px;
+    }
+    .btn{
+        padding: .8% 1.5%;
+        border-radius: 50px;
+        border: none;
+        background: black;
+        color: #fff;
+        margin-top: 2%;
+    }
+    .pro{
+
+        background: url("./img/1.jpg") cover 
+    }
+    .green{
+        width: 200px;
+        height: 100px;
+    }
+    .nth i{
+        padding-left: 32%;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .nth i{
+        padding-left: 20%;
+    }
+}
+@media screen and (max-width:650px) {
+    .navbar i{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar ul{
+        gap: 30px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+        padding-bottom: 3%;
+    }
+    .pro h3{
+     width: 50%;
+     font-size: 17px;
+     
+    }
+    .green{
+        min-width: 150px;
+        height: 60px;
+        padding-top: 0;
+    }
+    .green h4, p{
+        font-size: 11px;
+    }
+    .ras{
+        height: 500px;
+        display: block;
+        
+    }
+    .img{
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        
+    }
+   .text{
+    margin-left: 30%;
+    width: 100%;
+    height: 50%;
+   }
+   .text h1{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+   }
+   .mir{
+    grid-template-columns: 1fr;
+    
+   }
+   .futer{
+    grid-template-columns: 1fr;
+   }
+   .futer2{
+    margin-top: 10%;
+    grid-template-columns: 1fr;
+   }
+   .rem{
+    width: 100%;
+    grid-template-columns: 1fr;
+    }
+    .bg{
+    border: none;
+
+   }
+}
+@media screen and (max-width:500px) {
+    .navbar i{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .green{
+        width: 180px;
+        height: 80px;
+    }
+    .text h1{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    .img{
+        width: 50%;
+        height: 50%;
+        
+    }
+}
+
+@media screen and (max-width:350px) {
+    .green{
+        width: 80px;
+        height: 50px;
+        padding: 0;
+        margin-top: 5%;
+    }
+    .green h4, p{
+        flex-wrap: wrap;
+       
+        font-size: 8px;
+    }
+    .ras{
+        height: 200px;
+    }
+}
